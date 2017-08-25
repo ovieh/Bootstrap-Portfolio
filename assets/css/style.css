@@ -9,14 +9,9 @@ body {
     background: url("../images/concrete_seamless.png");
     margin: 0;
     line-height: 175%;
-    /* font-weight: 600; */
     font-size: 18px;
     margin-bottom: 100px;
 }
-
-/* #header_container {
-    width: 91%;
-} */
 
 footer {
     background-color: #666666;
@@ -25,8 +20,7 @@ footer {
     border-top: 7px;
     border-color: #57b0ab;
     border-style: solid;
-    /* clear: both; */
-    /* margin-top: 20px; */
+
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -34,23 +28,18 @@ footer {
 
 .main {
     width: 960px;
-    /* margin: 0 auto; */
-    /* padding: 0; */
 }
 
 .logo {
-    /* width: 250px; */
     height: 90px;
     background-color: #4aaaa5;
-    /* margin-left: 145px; */
-    /* float: left; */
     color: #ffffff;
     text-align: center;
     font-size: 28px;
     line-height: 90px;
     margin-bottom: 0;
     padding: 0 7px;
-    /* width: 100%; */
+
 }
 
 
@@ -75,8 +64,6 @@ h3 {
     border-bottom: 2px;
     border-color: #cccccc;
     border-style: solid;
-    /* height: 90px; */
-    /* width: 100%; */
     padding: 0;
 }
 .nav-list {
@@ -88,9 +75,6 @@ ul {
 }
 
 nav a {
-    /* display: inline-block; */
-    /* padding-left: 15px; */
-    /* margin-left: 15px; */
     line-height: 14px;
     color: #999;
     text-decoration: none;
@@ -130,15 +114,10 @@ img.icons:hover {
 }
 
 .content {
-    /* padding: 5px; */
     margin-top: 35px;
-    /* min-height: calc(100vh - 215px); */
-    /* width: 960px; */
-    
 }
 
 #about {
-    /* padding-bottom: 20px; */
     padding: 0 25px 35px 25px;
     box-sizing: border-box;
     background-color: #ffffff;
@@ -160,7 +139,6 @@ article {
 aside {
     box-sizing: border-box;
     background-color: #ffffff;
-    /* width: 270px; */
     height: 200px;
     padding: 30px 30px 45px 30px;
     margin-left: 0px;
@@ -181,14 +159,6 @@ aside hr {
 }
 ul.list-inline {
     padding-left: 30px;
-}
-
-
-.social {
-    margin: 0;
-    /* padding: 0 7px 0 7px; */
-    /* width: 62px; */
-    /* height: 62px; */
 }
 
 #connect {
