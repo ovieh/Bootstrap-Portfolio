@@ -199,8 +199,8 @@ ul.list-inline {
 }
 
 #profile {
-    height: 360px;
-    width: 360px;
+    height: 200px;
+    width: 200px;
     /* float: left; */
     margin: 0 20px 0 0;
 }
@@ -312,6 +312,12 @@ button {
         margin-right: 0;
     }
 
+    #profile {
+        width: 330px;
+        height: 330px;
+        margin-bottom: 10px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -327,6 +333,11 @@ button {
         width: 100%;
         margin: 0 auto;
         padding: 0;
+    }
+    #profile {
+        width: 450px;
+        height: 450px;
+        
     }
 }
 
