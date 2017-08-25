@@ -220,38 +220,25 @@ section h1 {
     padding: 3px;
     margin: 0;
 }
+#img_spacer {
+    margin: 10px 0;
+}
 
 .image_wrapper {
     position: relative;
-    height: 205px;
-    width: 275px;
-    float: left;
-    margin: 0;
-    padding: 0;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    /* margin-right: 20px; */
 }
 
-.image_wrapper:nth-child(odd) {
-    margin-right: 45px;
-}
-
-.images {
-    height: 100%;
-    width: 100%;
-}
 
 .image_wrapper h3 {
     position: absolute;
-    top: 140px;
+    top: 70%;
     left: 0;
     width: 100%;
     color: #ffffff;
     background-color: #4aaaa5;
     text-align: center;
     height: 60px;
-    width: 275px;
+    width: 100%;
     padding-top: 15px;
     box-sizing: border-box;
 }
@@ -337,7 +324,7 @@ button {
     #profile {
         width: 450px;
         height: 450px;
-        
+
     }
 }
 
@@ -350,6 +337,8 @@ button {
 
     } 
     .main {
-        width:80%;
+        width: 1030px;
     }
+
+
 }

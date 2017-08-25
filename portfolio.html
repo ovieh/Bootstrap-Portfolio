@@ -3,30 +3,87 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
-
-
-
-    <nav class="navbar navbar-expand-lg nav-head">
-        <div class="container main header-container">
-            <h1 class="navbar-brand logo">Ovieh Mosley</h1>
-            <ul "nav navbar-nav ml-auto list-inline">
-                <li class="nav-item list-inline-item"><a href="index.html" class="nav-link nav-bar-links">About</a></li>
-                <li class="nav-item list-inline-item"><a href="portfolio.html" class="nav-link nav-bar-links">Portolio</a> </li>
-                <li class="nav-item list-inline-item"><a href="contact.html" class="nav-link nav-bar-links">Contact</a></li>
-            </ul>
+    <div class="nav-head">
+        <div class="container-fluid main" id="header-container">
+            <div class="row justify-content-between no-gutters">
+                <div class="col-md-auto">
+                    <h1 class="logo">Ovieh Mosley</h1>
+                </div>
+                <div class="col-md-auto">
+                    <ul class="navbar align-middle list-inline nav-list">
+                        <li class="nav-item list-inline-item"><a href="index.html" class="nav-link nav-bar-links" id="no-border">About</a></li>
+                        <li class="nav-item list-inline-item"><a href="portfolio.html" class="nav-link nav-bar-links">Portolio</a> </li>
+                        <li class="nav-item list-inline-item"><a href="contact.html" class="nav-link nav-bar-links">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </nav>
 
-    <div class="clearfix"></div>
+    </div>
+
+    <div class="container content" id="sticky">
+        <div class="row justify-content-around no-gutters">
+            <section class="col-xl-8 col-lg-8 col-md-12 col-sm-12" id="about">
+                <h1>Portfolio</h1>
+                <hr id="thick">
+
+                <div class="row justify-content-between">
+                    <div class="col-lg-6 col-md-12 col-sm-6"  id="img_spacer">
+                        <div class="image_wrapper">
+                            <a href="#"><img src="assets/images/placeholder1.jpg" alt="Placeholder Image" class="images  img-fluid"></a>
+                            <h3>Hangman</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-6"  id="img_spacer">
+                        <div class="image_wrapper">
+                            <a href="#"><img src="assets/images/placeholder2.jpg" alt="Placeholder Image" class="images img-fluid"></a>
+                            <h3>Hangman</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-6"  id="img_spacer">
+                        <div class="image_wrapper">
+                            <a href="#"><img src="assets/images/placeholder2.jpg" alt="Placeholder Image" class="images img-fluid"></a>
+                            <h3>Hangman</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-6"  id="img_spacer">
+                        <div class="image_wrapper">
+                            <a href="#"><img src="assets/images/placeholder2.jpg" alt="Placeholder Image" class="images img-fluid"></a>
+                            <h3>Hangman</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-6"  id="img_spacer">
+                        <div class="image_wrapper">
+                            <a href="#"><img src="assets/images/placeholder2.jpg" alt="Placeholder Image" class="images img-fluid"></a>
+                            <h3>Hangman</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <aside class="col-lg-3 col-md-12 col-sm-12 social">
+                <h3 id="connect">Connect With Me</h3>
+                <hr>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="http://www.github.com/ovieh"><img src="assets/images/github.png" alt="Github" class="icons"></a></li>
+                    <li class="list-inline-item"><a href="http://www.linkedin.com/ovieh"><img src="assets/images/linkedin.png" alt="Linkedin" class="icons"></a></li>
+                    <li class="list-inline-item"><a href="http://www.stackoverflow.com/omokoro"><img src="assets/images/stackoverflow.png" alt="Stackoverflow" class="icons"></a></li>
+                </ul>
+        </div>
+
+
+    </div>
     <footer>
         <h6>&copy; Copyright 2017 Ovieh Mosley</h6>
     </footer>
