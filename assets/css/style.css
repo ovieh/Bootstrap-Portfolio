@@ -13,6 +13,14 @@ body {
     font-size: 18px;
     margin-bottom: 100px;
 }
+
+/* #header_container {
+    width: 91%;
+} */
+
+/* #center-head {
+    margin: 0 -15px;
+} */
 footer {
     background-color: #666666;
     height: 100px;
@@ -27,11 +35,11 @@ footer {
     width: 100%;
 }
 
-/* .main {
+.main {
     width: 960px;
-    margin: 0 auto;
-    padding: 0;
-} */
+    /* margin: 0 auto; */
+    /* padding: 0; */
+}
 
 .logo {
     /* width: 250px; */
@@ -140,6 +148,7 @@ section {
     border-width: 1px;
     border-color: #dddddd;
     margin-bottom: 40px;
+
 }
 
 #about h1 {
@@ -175,12 +184,12 @@ aside ul {
     height: 0;
 }
 
-.social {
+/* .social {
     margin: 0;
     padding: 0 7px 0 7px;
     width: 62px;
     height: 62px;
-}
+} */
 
 #connect {
     text-align: center;
@@ -190,8 +199,8 @@ aside ul {
 }
 
 #profile {
-    height: 200px;
-    width: 200px;
+    height: 36S0px;
+    width: 360px;
     /* float: left; */
     padding: 30px 20px 0 0;
 }
@@ -300,24 +309,43 @@ button {
     clear: both;
 } */
 @media screen and (max-width: 980px) {
-    #header_container {
-        width: 715px;
+    #header-container {
+        width: 690px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    ul.navbar:last-child {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #header-container {
+        width: 690px;
         margin: 0 auto;
         padding: 0;
     }
 }
 
-@media screen and (max-width: 768px) {
-    #header_container {
-        width: 90%;
+@media screen and (max-width: 640px) {
+    #header-container {
+        width: 100%;
         margin: 0 auto;
         padding: 0;
     }
 }
-@media screen and (max-width: 640px) {
-    #header_container {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0;
+
+@media (min-width: 980px){
+    #about{
+        max-width: 60%;
+    }   
+    .social {
+        max-width: 33%;
+
+    } 
+    .main {
+        width: 95%;
     }
 }
